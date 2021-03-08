@@ -1,0 +1,471 @@
+*{
+    font-family: sans-serif;
+}
+.container-fluid{
+    background-color: #f2f9f8;
+    padding: 10px 0px 10px 0px;
+}
+.right_panel{
+    background-color: #f2f9f8;
+    width: 28%;
+    float: right;
+    padding: 15px;
+}
+.calndr_img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.bell_img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+.contact_card_img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+.line_img{
+    width: 15px;
+    height: 25px;
+}
+.profile_img{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.prfl_name{
+    margin: 0px 5px 0px 0px;
+    color: gray;
+    cursor: pointer;
+}
+.down_arrow_img{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.reward{
+    padding: 10px 0px 10px 0px;
+    margin-left: -10px;
+}
+.rwrd_txt{
+    width: 90%;
+    color: gray;
+    padding: 5px 0px 0px 8px;
+    margin-bottom: -10px;
+}
+.pnts{
+    color: gray;
+    font-weight: bold;
+}
+.ylw_bdg{
+    width: 30px;
+    height: 30px;
+}
+.awrd_img{
+    width: 30px;
+    height: 30px;
+}
+.blu_bdg{
+    width: 30px;
+    height: 30px;
+}
+.course_work{
+    color: gray;
+}
+.chck_list{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.course_cmplted{
+    color: gray;
+    font-weight: bold;
+}
+.hrs_work{
+    color: gray;
+}
+.hrs_cmplted{
+    color: gray;
+    font-weight: bold;
+}
+#hrs{
+    margin-left: 35px;
+    width: 80%;
+    height: 5px;
+}
+.drpdwn{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.undrln{
+    position: absolute;
+}
+.hrs_report{
+    
+    position: relative;
+    height: 180px;
+    color: gray;
+}
+.hrs{
+    font-size: 1.2em;
+}
+.vew{
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.bar_img{
+    width: 100%;
+}
+.prfmnce_report{
+    position: relative;
+    height: 270px;
+    color: gray;
+}
+.graph_img{
+    width: 100%;
+}
+.prfrmnce_txt{
+    color: gray;
+}
+.cngrts_txt{
+    font-size: 1.5em;
+}
+.score{
+    margin-top: 10px;
+}
+.blu_crcl{
+    width: 15px;
+    height: 15px;
+}
+.green_crcl{
+    width: 15px;
+    height: 15px;
+}
+.clk{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+.agenda{
+    height: 220px;
+    color: gray;
+    position: relative;
+}
+.vew1{
+    font-size: 1.2em;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.bld_txt{
+    font-size: 1.3em;
+}
+.today_crse{
+    margin: 10px 0px 10px 0px;
+}
+.wed_trang{
+    margin: 10px 0px 10px 0px;
+}
+.ux{
+    margin: 10px 0px 10px 0px;
+}
+.left_text{
+    float: left;
+    width: 40%;
+}
+.rght_txt{
+    float: right;
+    width: 55%;
+}
+.resources{
+    color: gray;
+    position: relative;
+}
+.resrc_txt{
+    font-size: 1.3em;
+}
+.document{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    cursor: pointer;
+}
+.dwnld{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 40px;
+    cursor: pointer;
+}
+.document1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    cursor: pointer;
+}
+.dwnld1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    cursor: pointer;
+}
+.document2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    cursor: pointer;
+}
+.dwnld2{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 190px;
+    cursor: pointer;
+}
+.document3{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0px;
+    top: 270px;
+    cursor: pointer;
+}
+.dwnld3{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 270px;
+    cursor: pointer;
+}
+.vdeo_game{
+    position: absolute;
+    left: 25px;
+    top: 35px;
+    width: 60%;
+}
+.thousand{
+    position: absolute;
+    left: 25px;
+    top: 112px;
+    width: 60%;
+}
+.comaptbl1{
+    position: absolute;
+    left: 25px;
+    top: 180px;
+    width: 70%;
+}
+.comptble2{
+    position: absolute;
+    left: 25px;
+    top: 250px;
+    width: 70%;
+}
+.uxone{
+    position: absolute;
+    left: 25px;
+    width: 60%;
+    top: 80px;
+    font-size: 0.8em;
+}
+.uxtwo{
+    position: absolute;
+    left: 25px;
+    width: 60%;
+    font-size: 0.8em;
+    top: 155px;
+}
+.uxthr{
+    position: absolute;
+    left: 25px;
+    width: 60%;
+    font-size: 0.8em;
+    top: 225px;
+}
+.uxfor{
+    position: absolute;
+    left: 25px;
+    width: 60%;
+    font-size: 0.8em;
+    top: 295px;
+}
+.left_panel{
+    background-color: white;
+    width: 72%;
+    float: left;
+    margin-bottom: 100px;
+}
+.clearfix{
+    
+    margin: 0px auto;
+}
+.logo_n_search{
+    height: 70px;
+    padding: 10px;
+    cursor: pointer;
+}
+.logo{
+    float: left;
+}
+.logo_img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.seo{
+    float: right;
+    padding: 12px;
+}
+.srch_img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.flter_img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.down_arrow{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+.srch_txt{
+    
+    border: none;
+    outline: none;
+}
+
+.course_cards{
+   margin: 20px;
+   color: gray;
+}
+.ongoing_corse{
+    font-size: 1.3em;
+}
+.ongng_trng_txt{
+    font-size: 1.3em;
+}
+.upcmg_txt{
+    font-size: 1.3em;
+}
+.recmnded_txt{
+    font-size: 1.3em;
+}
+.rcntly_crtd_txt{
+    font-size: 1.3em;
+}
+.graphic_txt{
+    font-size: 1.3em;
+}
+.cmpltd_txt{
+    font-size: 1.3em;
+}
+.card{
+    height: 500px;
+    border-radius: 1rem !important;
+    border: none !important;
+}
+.ong_corse1{
+    z-index: 1;
+    float: left;
+}
+.ongn1{
+    width: 300px;
+    height: 240px;
+    margin: -5px 0px 0px -16px;
+}
+.imgs{
+    float: left;
+    padding: 10px;
+}
+.contact{
+    width: 25px;
+    height: 25px;
+}
+.rating{
+    width: 25px;
+    height: 25px;
+}
+.chat{
+    width: 25px;
+    height: 25px;
+}
+.bookmark{
+    width: 25px;
+    height: 25px;
+}
+.paper{
+    width: 25px;
+    height: 25px;
+}
+.meter_width{
+    width: 80%;
+}
+.nxt_txt{
+    margin-top:10px;
+}
+.blue_txt{
+    color: blue; font-size: 1.3em;
+}
+.description{
+    padding: 12px 0px 12px 0px;
+}
+.upcmng1{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.upcmng2{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.upcmng3{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.recmnded1{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.rcntly_crtd1{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.graphic_corse{
+    width: 245px;
+    height: 250px;
+    cursor: pointer;
+}
+.complted1{
+    width: 245px;
+    height: 350px;
+    cursor: pointer;
+}
+.schedule{
+    font-size: 1.3em;
+}
+.bottom_space{
+    margin-bottom: 35px;
+}
