@@ -124,7 +124,7 @@
 }
 .prfmnce_report{
     position: relative;
-    height: 270px;
+    height: 300px;
     color: gray;
 }
 .graph_img{
@@ -255,52 +255,52 @@
 }
 .vdeo_game{
     position: absolute;
-    left: 25px;
+    left: 40px;
     top: 35px;
     width: 60%;
 }
 .thousand{
     position: absolute;
-    left: 25px;
+    left: 40px;
     top: 112px;
     width: 60%;
 }
 .comaptbl1{
     position: absolute;
-    left: 25px;
+    left: 40px;
     top: 180px;
     width: 70%;
 }
 .comptble2{
     position: absolute;
-    left: 25px;
+    left: 40px;
     top: 250px;
     width: 70%;
 }
 .uxone{
     position: absolute;
-    left: 25px;
+    left: 40px;
     width: 60%;
     top: 80px;
     font-size: 0.8em;
 }
 .uxtwo{
     position: absolute;
-    left: 25px;
+    left: 40px;
     width: 60%;
     font-size: 0.8em;
     top: 155px;
 }
 .uxthr{
     position: absolute;
-    left: 25px;
+    left: 40px;
     width: 60%;
     font-size: 0.8em;
     top: 225px;
 }
 .uxfor{
     position: absolute;
-    left: 25px;
+    left: 40px;
     width: 60%;
     font-size: 0.8em;
     top: 295px;
@@ -357,8 +357,16 @@
    margin: 20px;
    color: gray;
 }
+.card_content{
+    background-color: #f2f9f8;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #d3d7d6;
+}
 .ongoing_corse{
     font-size: 1.3em;
+}
+.ongng_trng{
+    margin-top: 30px;
 }
 .ongng_trng_txt{
     font-size: 1.3em;
@@ -378,39 +386,49 @@
 .cmpltd_txt{
     font-size: 1.3em;
 }
-.card{
+.custom_card{
     height: 500px;
-    border-radius: 1rem !important;
-    border: none !important;
+    border-radius: 15px;
 }
 .ong_corse1{
-    z-index: 1;
     float: left;
+    width: 60%;
 }
 .ongn1{
-    width: 300px;
+    width: 100%;
     height: 240px;
-    margin: -5px 0px 0px -16px;
 }
 .imgs{
     float: left;
-    padding: 10px;
+    width: 40%;
+    height: 240px;
+}
+.info_content{
+    padding: 10px 0px 0px 10px;
 }
 .contact{
     width: 25px;
     height: 25px;
+    margin-left: 20%;
+    margin-top: 5px;
 }
 .rating{
     width: 25px;
     height: 25px;
+    margin-left: 20%;
+    margin-top: 5px;
 }
 .chat{
     width: 25px;
     height: 25px;
+    margin-left: 20%;
+    margin-top: 5px;
 }
 .bookmark{
     width: 25px;
     height: 25px;
+    margin-left: 20%;
+    margin-top: 5px;
 }
 .paper{
     width: 25px;
@@ -429,37 +447,37 @@
     padding: 12px 0px 12px 0px;
 }
 .upcmng1{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .upcmng2{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .upcmng3{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .recmnded1{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .rcntly_crtd1{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .graphic_corse{
-    width: 245px;
-    height: 250px;
+    width: 100%;
+    height: 305px;
     cursor: pointer;
 }
 .complted1{
-    width: 245px;
+    width: 100%;
     height: 350px;
     cursor: pointer;
 }
@@ -467,5 +485,13 @@
     font-size: 1.3em;
 }
 .bottom_space{
+    margin-top: 30px;
     margin-bottom: 35px;
+}
+.btn{
+    margin: 10px 0px 10px 0px;width: 50%;
+}
+.img_content{
+    color: blue;
+    margin: 10px;
 }
